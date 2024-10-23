@@ -1,0 +1,302 @@
+{
+    "name": "Buildings",
+    "layers": [
+        {
+            "name": "Buildings in the Municipal Territory",
+            "id": "MEDIATORE:V_IMM_ANTRO_BASE",
+            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=MEDIATORE:V_IMM_ANTRO_BASE&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "style": {
+                "color": "#4840b5",
+                "opacity": 1
+            },
+            "tags": [
+                "city",
+                "services",
+                "hospitals"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "TIPO_OGGETTO",
+                    "display_name": "Object Type",
+                    "type": "string"
+                },
+                {
+                    "property_name": "TIPO",
+                    "display_name": "Type",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Historic Center Buildings",
+            "id": "SITGEO:V_TIPO_CONNOTATIVO_CS",
+            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_TIPO_CONNOTATIVO_CS&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "style": {
+                "color": "#e1c550",
+                "opacity": 0.5
+            },
+            "tags": [
+                "city",
+                "street"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "TIPO_CONN",
+                    "display_name": "Typology",
+                    "type": "number"
+                }
+            ]
+        },
+        {
+            "name": "Buildings in the Historic Center",
+            "id": "V_CORPI_MAPP_CIVIS",
+            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_CORPI_MAPP_CIVIS&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "style": {
+                "color": "#e1c550",
+                "opacity": 0.5
+            },
+            "tags": [
+                "city",
+                "buildings",
+                "center"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "INDIRIZZO",
+                    "display_name": "Address",
+                    "type": "string"
+                },
+                {
+                    "property_name": "COD_CIVICO",
+                    "display_name": "Civic Code",
+                    "type": "string"
+                },
+                {
+                    "property_name": "COD_CORPO",
+                    "display_name": "Body Code",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ORDINE",
+                    "display_name": "Order",
+                    "type": "number"
+                },
+                {
+                    "property_name": "TIPO",
+                    "display_name": "Type",
+                    "type": "string"
+                },
+                {
+                    "property_name": "TIPO_EDIFICIO",
+                    "display_name": "Building Type",
+                    "type": "string"
+                },
+                {
+                    "property_name": "VUOTI",
+                    "display_name": "Vacant",
+                    "type": "string"
+                },
+                {
+                    "property_name": "PIANI_F_TERRA",
+                    "display_name": "Ground Floor Levels",
+                    "type": "number"
+                },
+                {
+                    "property_name": "PIANO_ACCESSO",
+                    "display_name": "Access Floor",
+                    "type": "number"
+                },
+                {
+                    "property_name": "APPARTAMENTI",
+                    "display_name": "Apartments",
+                    "type": "number"
+                },
+                {
+                    "property_name": "APPARTAM_RILEV",
+                    "display_name": "Surveyed Apartments",
+                    "type": "number"
+                },
+                {
+                    "property_name": "APPARTAM_OCCUP",
+                    "display_name": "Occupied Apartments",
+                    "type": "number"
+                },
+                {
+                    "property_name": "TERRENO_VOLTATO",
+                    "display_name": "Turned Land",
+                    "type": "string"
+                },
+                {
+                    "property_name": "TIPO_STRUTT",
+                    "display_name": "Structure Type",
+                    "type": "string"
+                },
+                {
+                    "property_name": "EPOCA_PREVAL",
+                    "display_name": "Prevalent Era",
+                    "type": "string"
+                },
+                {
+                    "property_name": "EPOCA_ANTIQ",
+                    "display_name": "Ancient Era",
+                    "type": "string"
+                },
+                {
+                    "property_name": "TIPO_CONNOT",
+                    "display_name": "Connotation Type",
+                    "type": "string"
+                },
+                {
+                    "property_name": "DESTINAZIONE",
+                    "display_name": "Destination",
+                    "type": "string"
+                },
+                {
+                    "property_name": "TIPO_ATTUAT",
+                    "display_name": "Implementation Type",
+                    "type": "string"
+                },
+                {
+                    "property_name": "SOPRAELEV_PIANI",
+                    "display_name": "Raised Floors",
+                    "type": "number"
+                },
+                {
+                    "property_name": "FONDAZIONI",
+                    "display_name": "Foundations",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ORIENT_PAR_PORT",
+                    "display_name": "Partial Load Orientation",
+                    "type": "string"
+                },
+                {
+                    "property_name": "LOCAL_DEGRADO",
+                    "display_name": "Degradation Location",
+                    "type": "string"
+                },
+                {
+                    "property_name": "CARATT_DEGRADO",
+                    "display_name": "Degradation Characteristics",
+                    "type": "string"
+                },
+                {
+                    "property_name": "UMIDITA",
+                    "display_name": "Humidity",
+                    "type": "string"
+                },
+                {
+                    "property_name": "LOCAL_UMIDITA",
+                    "display_name": "Humidity Location",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ABBANDONO",
+                    "display_name": "Abandonment",
+                    "type": "string"
+                },
+                {
+                    "property_name": "INTERVENTI",
+                    "display_name": "Interventions",
+                    "type": "string"
+                },
+                {
+                    "property_name": "DESCR_INTERV",
+                    "display_name": "Intervention Description",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ACCESS_EDIF",
+                    "display_name": "Building Access",
+                    "type": "string"
+                },
+                {
+                    "property_name": "PORTICO",
+                    "display_name": "Portico",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ASCENSORE",
+                    "display_name": "Elevator",
+                    "type": "string"
+                },
+                {
+                    "property_name": "EDICOLA",
+                    "display_name": "Newsstand",
+                    "type": "string"
+                },
+                {
+                    "property_name": "UTS",
+                    "display_name": "Special Territorial Unit",
+                    "type": "string"
+                },
+                {
+                    "property_name": "COD_CORPO_COP",
+                    "display_name": "Cover Body Code",
+                    "type": "string"
+                },
+                {
+                    "property_name": "DEGRADO",
+                    "display_name": "Degradation",
+                    "type": "string"
+                },
+                {
+                    "property_name": "NOTE",
+                    "display_name": "Notes",
+                    "type": "string"
+                },
+                {
+                    "property_name": "DATACREA",
+                    "display_name": "Creation Date",
+                    "type": "string"
+                },
+                {
+                    "property_name": "RECNO",
+                    "display_name": "Record Number",
+                    "type": "number"
+                },
+                {
+                    "property_name": "COD_LOCAL_UMID",
+                    "display_name": "Humidity Local Code",
+                    "type": "string"
+                },
+                {
+                    "property_name": "COD_CAUSA_UMID",
+                    "display_name": "Humidity Cause Code",
+                    "type": "string"
+                },
+                {
+                    "property_name": "TIPO_DEST",
+                    "display_name": "Destination Type",
+                    "type": "string"
+                },
+                {
+                    "property_name": "TIPO_DEGRADO",
+                    "display_name": "Degradation Type",
+                    "type": "string"
+                },
+                {
+                    "property_name": "LOCAL_INTERVENTI",
+                    "display_name": "Intervention Location",
+                    "type": "string"
+                },
+                {
+                    "property_name": "PRES_ELEM_AMIANTO",
+                    "display_name": "Presence of Asbestos Elements",
+                    "type": "string"
+                },
+                {
+                    "property_name": "COD_TOPON",
+                    "display_name": "Toponymic Code",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ORIGINE_DATI",
+                    "display_name": "Data Origin",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
+}

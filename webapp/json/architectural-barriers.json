@@ -1,0 +1,84 @@
+{
+    "name": "Architectural Barriers",
+    "layers": [
+        {
+            "name": "Architectural Barriers",
+            "id": "SITGEO:V_PEBA_OGGETTI_FUNZ",
+            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_PEBA_OGGETTI_FUNZ&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "style": {
+                "color": "#55340a",
+                "opacity": 0.5
+            },
+            "tags": [
+                "city",
+                "disabled",
+                "barriers",
+                "architectural"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "TIPO_OGGETTO",
+                    "display_name": "Type",
+                    "type": "string"
+                },
+                {
+                    "property_name": "CATEGORIA_FUNZIONE",
+                    "display_name": "Category",
+                    "type": "string"
+                },
+                {
+                    "property_name": "DESC_FUNZIONE",
+                    "display_name": "Function",
+                    "type": "string"
+                },
+                {
+                    "property_name": "INDIRIZZO",
+                    "display_name": "Address",
+                    "type": "string"
+                },
+                {
+                    "property_name": "CRIT_MOTORIA",
+                    "display_name": "Mobility Criticality",
+                    "type": "string"
+                },
+                {
+                    "property_name": "GRADO_ACC_MOTORIA",
+                    "display_name": "Mobility Accessibility Level",
+                    "type": "string"
+                },
+                {
+                    "property_name": "CRIT_SENSORIALE",
+                    "display_name": "Sensory Criticality",
+                    "type": "string"
+                },
+                {
+                    "property_name": "GRADO_ACC_SENSORIALE",
+                    "display_name": "Sensory Accessibility Level",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Barrier-Free Paths",
+            "id": "SITGEO:V_PEBA_PERCORSI_CS",
+            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_PEBA_PERCORSI_CS&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "style": {
+                "color": "#b70960",
+                "opacity": 1
+            },
+            "tags": [
+                "city",
+                "disabled",
+                "barriers",
+                "architectural"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "TIPOLOGIA",
+                    "display_name": "Type",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
+}

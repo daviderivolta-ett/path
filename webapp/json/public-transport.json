@@ -1,0 +1,115 @@
+{
+  "name": "Public Transport",
+  "layers": [
+    {
+      "name": "AMT Stops",
+      "id": "SITGEO:V_MOB_FERMATE_AMT",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_MOB_FERMATE_AMT&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#85499a",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "public transport",
+        "amt",
+        "bus"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "LINEA",
+          "display_name": "Lines",
+          "type": "string"
+        },
+        {
+          "property_name": "DETTAGLI",
+          "display_name": "Details",
+          "type": "string"
+        },
+        {
+          "property_name": "NOME_FERMATA",
+          "display_name": "Stop Name",
+          "type": "number"
+        },
+        {
+          "property_name": "CODICE_FERMATA",
+          "display_name": "Code",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Metro Stations",
+      "id": "SITGEO:V_MOB_METROPOLITANA_STAZIONI",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_MOB_METROPOLITANA_STAZIONI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#58a293",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "public transport",
+        "amt",
+        "subway"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "NOME_STAZ",
+          "display_name": "Station Name",
+          "type": "string"
+        },
+        {
+          "property_name": "STATO",
+          "display_name": "State",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Metro Route",
+      "id": "SITGEO:V_MOB_METROPOLITANA",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_MOB_METROPOLITANA&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#1b2eb7",
+        "opacity": 1
+      },
+      "tags": [
+        "city",
+        "public transport",
+        "amt",
+        "subway"
+      ],
+      "relevant_properties": []
+    },
+    {
+      "name": "Funiculars",
+      "id": "L8020",
+      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2201/wfs/?service=WFS&typeName=L8020&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#493e68",
+        "opacity": 1
+      },
+      "tags": [
+        "city",
+        "funicular"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "DEF_SEDE",
+          "display_name": "Base",
+          "type": "number"
+        },
+        {
+          "property_name": "DEF_LIVELLO",
+          "display_name": "Level",
+          "type": "string"
+        },
+        {
+          "property_name": "DEF_STATO",
+          "display_name": "State",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

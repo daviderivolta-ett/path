@@ -1,0 +1,63 @@
+{
+  "name": "Staglieno Cemetery Monuments",
+  "layers": [
+    {
+      "name": "Staglieno Cemetery Monuments",
+      "id": "CULTURA:V_STAG_SCULTURE",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=CULTURA:V_STAG_SCULTURE&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#7ae8fe",
+        "opacity": 0.5
+      },
+      "tags": [
+        "culture",
+        "monuments",
+        "art",
+        "cemetery",
+        "staglieno"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "NOME",
+          "display_name": "Name",
+          "type": "string"
+        },
+        {
+          "property_name": "NUMERO_MAPPA",
+          "display_name": "Map Number",
+          "type": "number"
+        },
+        {
+          "property_name": "NUMERO_TOMBA",
+          "display_name": "Tomb Number",
+          "type": "string"
+        },
+        {
+          "property_name": "PERCORSO",
+          "display_name": "Path",
+          "type": "string"
+        },
+        {
+          "property_name": "POSIZIONE",
+          "display_name": "Position",
+          "type": "string"
+        },
+        {
+          "property_name": "SCULTORE",
+          "display_name": "Sculptor",
+          "type": "string"
+        },
+        {
+          "property_name": "SETTORE",
+          "display_name": "Sector",
+          "type": "string"
+        },
+        {
+          "property_name": "DESC_SETTORE",
+          "display_name": "Sector Description",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

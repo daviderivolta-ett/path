@@ -1,0 +1,412 @@
+{
+  "name": "Services",
+  "layers": [
+    {
+      "name": "Public toilets",
+      "id": "SITGEO:V_BAGNI",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_BAGNI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#febfa4",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "bathroom",
+        "public"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "DATI",
+          "display_name": "Location",
+          "type": "string"
+        },
+        {
+          "property_name": "NOTE",
+          "display_name": "Type",
+          "type": "string"
+        },
+        {
+          "property_name": "ACCESSIBILE",
+          "display_name": "Accessible",
+          "type": "string"
+        },
+        {
+          "property_name": "AUTOPUL",
+          "display_name": "Self-cleaning",
+          "type": "string"
+        },
+        {
+          "property_name": "OPERATIVO",
+          "display_name": "Operational Status",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Hospitals",
+      "id": "SITGEO:V_PC_OSPEDALI",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_PC_OSPEDALI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#6ab58d",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "hospitals"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "DENOMINAZIONE",
+          "display_name": "Name",
+          "type": "string"
+        },
+        {
+          "property_name": "INDIRIZZO",
+          "display_name": "Address",
+          "type": "number"
+        },
+        {
+          "property_name": "PRONTO_SOC",
+          "display_name": "Emergency",
+          "type": "string"
+        },
+        {
+          "property_name": "TIPO_STRUTTURA",
+          "display_name": "Type",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Pharmacies",
+      "id": "L807",
+      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M452/wfs/?service=WFS&typeName=L807&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#cb1648",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "pharmacies"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "nome_farmacia",
+          "display_name": "Pharmacy Name",
+          "type": "string"
+        },
+        {
+          "property_name": "indirizzo",
+          "display_name": "Address",
+          "type": "string"
+        },
+        {
+          "property_name": "civico",
+          "display_name": "House Number",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "name": "Cinema",
+      "id": "GEOJSON_CINEMA",
+      "layer_url_wfs": "./geojson/cinemas.geojson",
+      "style": {
+        "color": "#b795d2",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "cinema"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Name",
+          "type": "string"
+        },
+        {
+          "property_name": "url",
+          "display_name": "Website",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Theaters",
+      "id": "GEOJSON_TEATRI",
+      "layer_url_wfs": "./geojson/theatre.geojson",
+      "style": {
+        "color": "#c06156",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "theaters"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Name",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Street",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Number",
+          "type": "string"
+        },
+        {
+          "property_name": "website",
+          "display_name": "Website",
+          "type": "string"
+        },
+        {
+          "property_name": "wikidata",
+          "display_name": "Wikidata",
+          "type": "string"
+        },
+        {
+          "property_name": "P154",
+          "display_name": "Logo",
+          "type": "img"
+        },
+        {
+          "property_name": "P18",
+          "display_name": "Photo",
+          "type": "img"
+        },
+        {
+          "property_name": "P856",
+          "display_name": "Website",
+          "type": "url"
+        }
+      ]
+    },
+    {
+      "name": "Schools",
+      "id": "SITGEO:SCUOLE_AGG_GEO",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:SCUOLE_AGG_GEO&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#97424c",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "hospitals"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "CATEGORIA",
+          "display_name": "Category",
+          "type": "number"
+        },
+        {
+          "property_name": "NOME",
+          "display_name": "Name",
+          "type": "number"
+        },
+        {
+          "property_name": "TIPO_DIREZ_TERRITORIALE",
+          "display_name": "Type of territorial direction",
+          "type": "number"
+        },
+        {
+          "property_name": "DIREZ_TERRITORIALE",
+          "display_name": "Territorial direction",
+          "type": "number"
+        },
+        {
+          "property_name": "MUNICIPIO",
+          "display_name": "Municipality",
+          "type": "number"
+        },
+        {
+          "property_name": "INDIRIZZO",
+          "display_name": "Address",
+          "type": "number"
+        },
+        {
+          "property_name": "UNITA_URBANISTICA",
+          "display_name": "Urban unit",
+          "type": "number"
+        },
+        {
+          "property_name": "CAP",
+          "display_name": "Postal Code",
+          "type": "string"
+        },
+        {
+          "property_name": "EMAIL",
+          "display_name": "Email",
+          "type": "string"
+        },
+        {
+          "property_name": "TELEFONO",
+          "display_name": "Phone",
+          "type": "string"
+        },
+        {
+          "property_name": "FAX",
+          "display_name": "Fax",
+          "type": "string"
+        },
+        {
+          "property_name": "PERICOLOS_FRANE",
+          "display_name": "Landslide hazard",
+          "type": "string"
+        },
+        {
+          "property_name": "PERICOLOS_IDRO",
+          "display_name": "Hydrological hazard",
+          "type": "string"
+        },
+        {
+          "property_name": "PERICOLOS_INC",
+          "display_name": "Fire hazard",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Local markets",
+      "id": "SITGEO:V_COM_MERCATI",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_COM_MERCATI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#37f58e",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "hospitals"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "INDIRIZZO",
+          "display_name": "Address",
+          "type": "number"
+        },
+        {
+          "property_name": "TIPO",
+          "display_name": "Type",
+          "type": "string"
+        },
+        {
+          "property_name": "APERTURA",
+          "display_name": "Opening hours",
+          "type": "string"
+        },
+        {
+          "property_name": "GIORNI",
+          "display_name": "Days",
+          "type": "string"
+        },
+        {
+          "property_name": "ZONA",
+          "display_name": "Zone",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Drinking water",
+      "id": "GEOJSON_ACQUA_POTABILE",
+      "layer_url_wfs": "./geojson/drinking-water.geojson",
+      "style": {
+        "color": "#b89da7",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "water",
+        "potable",
+        "fountains"
+      ],
+      "relevant_properties": []
+    },
+    {
+      "name": "Surveillance cameras",
+      "id": "GEOJSON_SURVEILLANCE_CAMERAS",
+      "layer_url_wfs": "./geojson/surveillance-cameras.geojson",
+      "style": {
+        "color": "#691a40",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "security"
+      ],
+      "relevant_properties": []
+    },
+    {
+      "name": "ATMs",
+      "id": "GEOJSON_ATM",
+      "layer_url_wfs": "./geojson/atm.geojson",
+      "style": {
+        "color": "#4bdd99",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "security"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Bank",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "name": "Public benches",
+      "id": "GEOJSON_BENCH",
+      "layer_url_wfs": "./geojson/benches.geojson",
+      "style": {
+        "color": "#db2103",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "relax"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "backrest",
+          "display_name": "Backrest",
+          "type": "string"
+        },
+        {
+          "property_name": "material",
+          "display_name": "Material",
+          "type": "string"
+        },
+        {
+          "property_name": "seats",
+          "display_name": "Number of seats",
+          "type": "number"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Description",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

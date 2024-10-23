@@ -1,0 +1,180 @@
+{
+  "name": "Parks and Gardens",
+  "layers": [
+    {
+      "name": "Monumental Trees",
+      "id": "L9671",
+      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2502/wfs/?service=WFS&typeName=L9671&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#57af21",
+        "opacity": 0.5
+      },
+      "tags": [
+        "nature",
+        "parks",
+        "gardens",
+        "trees"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "ALTITUDINE",
+          "display_name": "Altitude",
+          "type": "string"
+        },
+        {
+          "property_name": "LONGITUDINE",
+          "display_name": "Longitude",
+          "type": "string"
+        },
+        {
+          "property_name": "PROVINCIA",
+          "display_name": "Province",
+          "type": "string"
+        },
+        {
+          "property_name": "COMUNE",
+          "display_name": "Municipality",
+          "type": "string"
+        },
+        {
+          "property_name": "LOCALITA",
+          "display_name": "Locality",
+          "type": "string"
+        },
+        {
+          "property_name": "CONTESTO_URBANO",
+          "display_name": "Urban Context",
+          "type": "string"
+        },
+        {
+          "property_name": "ATTO_NAZ",
+          "display_name": "National Act",
+          "type": "string"
+        },
+        {
+          "property_name": "ATTO_REG",
+          "display_name": "Regional Act",
+          "type": "string"
+        },
+        {
+          "property_name": "ID_ALBERO",
+          "display_name": "Tree ID",
+          "type": "string"
+        },
+        {
+          "property_name": "NOME_SCIENTIFICO",
+          "display_name": "Scientific Name",
+          "type": "string"
+        },
+        {
+          "property_name": "NOME_VOLGARE",
+          "display_name": "Common Name",
+          "type": "string"
+        },
+        {
+          "property_name": "ALTEZZA",
+          "display_name": "Height",
+          "type": "number"
+        },
+        {
+          "property_name": "ETA",
+          "display_name": "Age (years)",
+          "type": "number"
+        },
+        {
+          "property_name": "CIRC_FUSTO",
+          "display_name": "Circumference (cm)",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "name": "Parks and Gardens",
+      "id": "L8776",
+      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2342/wfs/?service=WFS&typeName=L8776&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#e302a6",
+        "opacity": 0.5
+      },
+      "tags": [
+        "nature",
+        "parks",
+        "gardens"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "CAT_NAME",
+          "display_name": "Category",
+          "type": "string"
+        },
+        {
+          "property_name": "NOME",
+          "display_name": "Name",
+          "type": "string"
+        },
+        {
+          "property_name": "INDIRIZZO",
+          "display_name": "Address",
+          "type": "string"
+        },
+        {
+          "property_name": "NUMCIVICO",
+          "display_name": "Number",
+          "type": "number"
+        },
+        {
+          "property_name": "LOCALITA",
+          "display_name": "Locality",
+          "type": "string"
+        },
+        {
+          "property_name": "NOMEAREA",
+          "display_name": "Area Name",
+          "type": "string"
+        },
+        {
+          "property_name": "NOMECOMUNE",
+          "display_name": "Municipality",
+          "type": "string"
+        },
+        {
+          "property_name": "NOMEPROVINCIA",
+          "display_name": "Province",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Regional Forests",
+      "id": "L7937",
+      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2188/wfs/?service=WFS&typeName=L7937&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#eecc5f",
+        "opacity": 0.5
+      },
+      "tags": [
+        "nature",
+        "parks",
+        "gardens",
+        "forests"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "NOME_FORESTA",
+          "display_name": "Forest Name",
+          "type": "string"
+        },
+        {
+          "property_name": "RIF_GESTORE",
+          "display_name": "Manager",
+          "type": "string"
+        },
+        {
+          "property_name": "CONTATTO_GESTORE",
+          "display_name": "Manager Contact",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

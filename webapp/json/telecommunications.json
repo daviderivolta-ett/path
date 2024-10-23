@@ -1,0 +1,102 @@
+{
+  "name": "Telecommunications",
+  "layers": [
+    {
+      "name": "FreeWiFiGenova Routers",
+      "id": "SITGEO:WI-FI_URBANO",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:WI-FI_URBANO&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#f7cb90",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "hospitals"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "NOME",
+          "display_name": "Name",
+          "type": "string"
+        },
+        {
+          "property_name": "SITO",
+          "display_name": "Site",
+          "type": "string"
+        },
+        {
+          "property_name": "TIPO",
+          "display_name": "Type",
+          "type": "string"
+        },
+        {
+          "property_name": "MUNICIPIO",
+          "display_name": "Municipality",
+          "type": "number"
+        },
+        {
+          "property_name": "ANNO",
+          "display_name": "Installation Year",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Telecommunication Installations",
+      "id": "L7991",
+      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2196/wms/?service=WFS&typeName=L7991&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#e597ca",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "hospitals"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "d_comune",
+          "display_name": "Municipality",
+          "type": "string"
+        },
+        {
+          "property_name": "d_provincia",
+          "display_name": "Province",
+          "type": "string"
+        },
+        {
+          "property_name": "d_gestore",
+          "display_name": "Provider",
+          "type": "string"
+        },
+        {
+          "property_name": "d_sito",
+          "display_name": "Address",
+          "type": "string"
+        },
+        {
+          "property_name": "localita",
+          "display_name": "Locality",
+          "type": "string"
+        },
+        {
+          "property_name": "descrizione",
+          "display_name": "Description",
+          "type": "string"
+        },
+        {
+          "property_name": "MUNICIPIO",
+          "display_name": "Municipality",
+          "type": "number"
+        },
+        {
+          "property_name": "ANNO",
+          "display_name": "Installation Year",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

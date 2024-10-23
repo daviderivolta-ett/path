@@ -1,0 +1,259 @@
+{
+    "name": "Tourism",
+    "layers": [
+        {
+            "name": "Stumbling Stones",
+            "id": "SITGEO:V_LUOGHI_TURISTICI&CQL_FILTER=OGGETTO='PIETRE_INCIAMPO'",
+            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_LUOGHI_TURISTICI&CQL_FILTER=OGGETTO='PIETRE_INCIAMPO'&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "style": {
+                "color": "#ebdb34",
+                "opacity": 1
+            },
+            "tags": [
+                "tourism",
+                "stumbling stones"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "TITOLO",
+                    "display_name": "Title",
+                    "type": "string"
+                },
+                {
+                    "property_name": "LUOGO",
+                    "display_name": "Place",
+                    "type": "string"
+                },
+                {
+                    "property_name": "STORIA",
+                    "display_name": "History",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Tourist Accommodations",
+            "id": "SITGEO:V_RIC_TURISTICHE",
+            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_RIC_TURISTICHE&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "style": {
+                "color": "#bf5132",
+                "opacity": 0.5
+            },
+            "tags": [
+                "city",
+                "street"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "TIPOLOGIA",
+                    "display_name": "Type",
+                    "type": "string"
+                },
+                {
+                    "property_name": "INDIRIZZO",
+                    "display_name": "Address",
+                    "type": "string"
+                },
+                {
+                    "property_name": "CIVICO",
+                    "display_name": "n",
+                    "type": "number"
+                },
+                {
+                    "property_name": "CLAS",
+                    "display_name": "Rating",
+                    "type": "string"
+                },
+                {
+                    "property_name": "CAMERE",
+                    "display_name": "Rooms",
+                    "type": "number"
+                },
+                {
+                    "property_name": "LETTI",
+                    "display_name": "Beds",
+                    "type": "number"
+                }
+            ]
+        },
+        {
+            "name": "MIAGE City Walls",
+            "id": "V_CINTA_MURARIA",
+            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_CINTA_MURARIA&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "style": {
+                "color": "#00FFFF",
+                "opacity": 1
+            },
+            "tags": [
+                "city",
+                "wall",
+                "history"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "stato",
+                    "display_name": "State",
+                    "type": "string"
+                },
+                {
+                    "property_name": "epoca",
+                    "display_name": "Era",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Historical Shops",
+            "id": "V_BOTTEGHE_STORICHE",
+            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_BOTTEGHE_STORICHE&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "style": {
+                "color": "#DC2124",
+                "opacity": 1
+            },
+            "tags": [
+                "city",
+                "shops",
+                "historical"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "TITOLO",
+                    "display_name": "Title",
+                    "type": "string"
+                },
+                {
+                    "property_name": "INDIRIZZO",
+                    "display_name": "Address",
+                    "type": "string"
+                },
+                {
+                    "property_name": "TIPO",
+                    "display_name": "Type",
+                    "type": "string"
+                },
+                {
+                    "property_name": "NOTE",
+                    "display_name": "Notes",
+                    "type": "string"
+                },
+                {
+                    "property_name": "URL",
+                    "display_name": "Website",
+                    "type": "string"
+                },
+                {
+                    "property_name": "TELEFONO",
+                    "display_name": "Phone",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "UNESCO Palaces of Genoa",
+            "id": "V_UNESCO_GEOPORT",
+            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_UNESCO_GEOPORT&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "style": {
+                "color": "#0077D4",
+                "opacity": 0.5
+            },
+            "tags": [
+                "city",
+                "shops",
+                "historical"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "NOME_PALAZZO",
+                    "display_name": "Palace Name",
+                    "type": "string"
+                },
+                {
+                    "property_name": "INDIRIZZO",
+                    "display_name": "Address",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ANNO_COSTRUZIONE",
+                    "display_name": "Year Built",
+                    "type": "string"
+                },
+                {
+                    "property_name": "RICONOSCIMENTO",
+                    "display_name": "Recognition",
+                    "type": "string"
+                },
+                {
+                    "property_name": "AMBITO_DI_APPARTENENZA",
+                    "display_name": "Field",
+                    "type": "string"
+                },
+                {
+                    "property_name": "DESTINAZIONE_ATTUALE",
+                    "display_name": "Current Destination",
+                    "type": "string"
+                },
+                {
+                    "property_name": "PROPRIETA_ATTUALE",
+                    "display_name": "Current Property",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ESTERNO",
+                    "display_name": "Exterior",
+                    "type": "string"
+                },
+                {
+                    "property_name": "VISITABILE",
+                    "display_name": "Visitable",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ORARI",
+                    "display_name": "Hours",
+                    "type": "string"
+                },
+                {
+                    "property_name": "DA_NON_PERDERE",
+                    "display_name": "Must See",
+                    "type": "string"
+                },
+                {
+                    "property_name": "APPROFONDIMENTO",
+                    "display_name": "Details",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Places of Worship",
+            "id": "V_CULTO_GEO",
+            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_CULTO_GEO&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "style": {
+                "color": "#90AEDC",
+                "opacity": 0.5
+            },
+            "tags": [
+                "city",
+                "churches",
+                "worship"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "DESCRIZIONE",
+                    "display_name": "Description",
+                    "type": "string"
+                },
+                {
+                    "property_name": "INDIRIZZO",
+                    "display_name": "Address",
+                    "type": "string"
+                },
+                {
+                    "property_name": "DENOMINAZIONE",
+                    "display_name": "Name",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
+}

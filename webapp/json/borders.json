@@ -1,0 +1,57 @@
+{
+    "name": "Boundaries",
+    "layers": [
+        {
+            "name": "Municipality Boundaries",
+            "id": "V_MUNICIPI",
+            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_MUNICIPI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "style": {
+                "color": "#5B0B23",
+                "opacity": 0.5
+            },
+            "tags": [
+                "boundaries",
+                "politics",
+                "municipalities"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "CODICE_MUNICIPIO",
+                    "display_name": "Code",
+                    "type": "string"
+                },
+                {
+                    "property_name": "NOME_MUNICIPIO",
+                    "display_name": "Name",
+                    "type": "number"
+                }
+            ]
+        },
+        {
+            "name": "Circumscription Boundaries",
+            "id": "V_CIRCOS",
+            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_CIRCOS&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "style": {
+                "color": "#700F7C",
+                "opacity": 0.5
+            },
+            "tags": [
+                "boundaries",
+                "politics",
+                "circumscription"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "CODICE_CIRCOSCRIZIONE",
+                    "display_name": "Code",
+                    "type": "string"
+                },
+                {
+                    "property_name": "NOME_CIRCOSCRIZIONE",
+                    "display_name": "Name",
+                    "type": "number"
+                }
+            ]
+        }
+    ]
+}

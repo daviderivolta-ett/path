@@ -1,0 +1,87 @@
+{
+  "name": "Pedestrian and Cycle Areas",
+  "layers": [
+    {
+      "name": "Bike Sharing Parks",
+      "id": "SITGEO:V_MOB_PARKS_BIKESHARING",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_MOB_PARKS_BIKESHARING&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#51fa67",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "bicycle",
+        "cycle path",
+        "track",
+        "parking",
+        "sharing",
+        "bike sharing"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "NOME",
+          "display_name": "Name",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Cycle Paths",
+      "id": "SITGEO:V_MOB_PISTE_CICLABILI",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_MOB_PISTE_CICLABILI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#51b6b0",
+        "opacity": 1
+      },
+      "tags": [
+        "city",
+        "bicycle",
+        "cycle path",
+        "route",
+        "track",
+        "trail",
+        "sharing",
+        "bike sharing"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "NOME_TRATTA",
+          "display_name": "Section",
+          "type": "string"
+        },
+        {
+          "property_name": "TIPO",
+          "display_name": "Type",
+          "type": "string"
+        },
+        {
+          "property_name": "STATO",
+          "display_name": "Condition",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Pedestrian Areas",
+      "id": "SITGEO:V_MOB_AREE_PEDONALI",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_MOB_AREE_PEDONALI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#b3e27d",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "areas",
+        "pedestrian"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "NOME_VIA",
+          "display_name": "Address",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

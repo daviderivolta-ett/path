@@ -1,0 +1,84 @@
+{
+  "name": "Parking Areas",
+  "layers": [
+    {
+      "name": "Car Sharing Parks",
+      "id": "V_MOB_PARKS_CARSHARING",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_MOB_PARKS_CARSHARING&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#aaac98",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "parking",
+        "car sharing"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "NOME",
+          "display_name": "Name",
+          "type": "string"
+        },
+        {
+          "property_name": "NUMERO_STALLI",
+          "display_name": "Number of stalls",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Interchange Parking",
+      "id": "V_MOB_PARKS_INTERSCAMBIO",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_MOB_PARKS_INTERSCAMBIO&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#12ca7f",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "parking",
+        "interchange"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "NOME",
+          "display_name": "Name",
+          "type": "string"
+        },
+        {
+          "property_name": "NUMERO_STALLI",
+          "display_name": "Number of stalls",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Blue Area",
+      "id": "SITGEO:V_MOB_BLUAREA",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_MOB_BLUAREA&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#56f676",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "parking",
+        "blue area",
+        "ztl"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "DENOMINAZIONE",
+          "display_name": "Area Name",
+          "type": "string"
+        },
+        {
+          "property_name": "CODICE_ZONA",
+          "display_name": "Zone Code",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

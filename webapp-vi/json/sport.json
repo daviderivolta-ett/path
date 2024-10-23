@@ -1,0 +1,141 @@
+{
+  "name": "Sport",
+  "layers": [
+    {
+      "name": "Municipal Sports Facilities",
+      "id": "SITGEO:V_IMPIANTI_SPORTIVI",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_IMPIANTI_SPORTIVI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#aeafd9",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "hospitals"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "IMPIANTO",
+          "display_name": "Facility",
+          "type": "string"
+        },
+        {
+          "property_name": "INDIRIZZO",
+          "display_name": "Address",
+          "type": "string"
+        },
+        {
+          "property_name": "MUNICIPIO",
+          "display_name": "Municipality",
+          "type": "string"
+        },
+        {
+          "property_name": "ATTIVITA",
+          "display_name": "Activity",
+          "type": "string"
+        },
+        {
+          "property_name": "CLASSIFICAZIONE",
+          "display_name": "Classification",
+          "type": "string"
+        },
+        {
+          "property_name": "CONCESSIONARIO",
+          "display_name": "Manager",
+          "type": "number"
+        },
+        {
+          "property_name": "SED_LEG_CONC",
+          "display_name": "Manager Address",
+          "type": "number"
+        },
+        {
+          "property_name": "LINK_SITO_GESTORE",
+          "display_name": "Manager Website",
+          "type": "number"
+        },
+        {
+          "property_name": "PERICOLOS_FRANE",
+          "display_name": "Landslide Hazard",
+          "type": "string"
+        },
+        {
+          "property_name": "PERICOLOS_IDRO",
+          "display_name": "Hydrological Hazard",
+          "type": "string"
+        },
+        {
+          "property_name": "PERICOLOS_INC",
+          "display_name": "Fire Hazard",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Sports Use Areas",
+      "id": "URBANISTICA:V_VAS_SPORT",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=URBANISTICA:V_VAS_SPORT&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#79f7fd",
+        "opacity": 0.5
+      },
+      "tags": [
+        "city",
+        "services",
+        "hospitals"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "TIPO",
+          "display_name": "Type",
+          "type": "string"
+        },
+        {
+          "property_name": "INDIRIZZO",
+          "display_name": "Address",
+          "type": "string"
+        },
+        {
+          "property_name": "MUNICIPIO",
+          "display_name": "Municipality",
+          "type": "string"
+        },
+        {
+          "property_name": "CATEGORIA",
+          "display_name": "Category",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Sports Areas",
+      "id": "L8814",
+      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2364/wfs/?service=WFS&typeName=L8814&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#79f7ed",
+        "opacity": 0.5
+      },
+      "tags": [
+        "sport"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "NOME_COMP",
+          "display_name": "Area Name",
+          "type": "string"
+        },
+        {
+          "property_name": "POPOLAZ_RES",
+          "display_name": "Resident Population",
+          "type": "string"
+        },
+        {
+          "property_name": "COD_COMP",
+          "display_name": "Area Code",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
