@@ -1,7 +1,7 @@
 {
     "name": "RAISE - Mobility app",
     "short_name": "RAISE",
-    "start_url": "https://daviderivolta-ett.github.io/path/webapp-vi/",
+    "start_url": "https://s4raise.it/spoke1/path/webapp-vi/",
     "display": "standalone",
     "description": "Mobility app showing points of interest within the city of Genoa",
     "lang": "en",
