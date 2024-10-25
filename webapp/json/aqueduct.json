@@ -10,12 +10,7 @@
         "opacity": 1
       },
       "tags": [
-        "culture",
-        "aqueduct",
-        "path",
-        "trail",
-        "culture",
-        "history"
+        "culture"
       ],
       "relevant_properties": [
         {
@@ -42,11 +37,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "culture",
-        "aqueduct",
-        "culture",
-        "history",
-        "artifact"
+        "culture"
       ],
       "relevant_properties": [
         {
@@ -84,13 +75,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "culture",
-        "aqueduct",
-        "path",
-        "trail",
-        "culture",
-        "rest",
-        "refreshment"
+        "culture"
       ],
       "relevant_properties": [],
       "components": [
@@ -107,12 +92,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "culture",
-        "aqueduct",
-        "path",
-        "trail",
-        "culture",
-        "access"
+        "culture"
       ],
       "relevant_properties": [
         {
@@ -140,13 +120,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "culture",
-        "aqueduct",
-        "path",
-        "trail",
-        "culture",
-        "rest",
-        "interest"
+        "culture"
       ],
       "relevant_properties": [
         {
@@ -170,14 +144,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "culture",
-        "aqueduct",
-        "path",
-        "trail",
-        "culture",
-        "rest",
-        "panel",
-        "information"
+        "culture"
       ],
       "relevant_properties": []
     }

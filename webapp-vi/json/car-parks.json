@@ -10,9 +10,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "parking",
-        "car sharing"
+        "mobility",
+        "services"
       ],
       "relevant_properties": [
         {
@@ -36,9 +35,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "parking",
-        "interchange"
+       "mobility"
       ],
       "relevant_properties": [
         {
@@ -62,10 +59,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "parking",
-        "blue area",
-        "ztl"
+        "mobility"
       ],
       "relevant_properties": [
         {

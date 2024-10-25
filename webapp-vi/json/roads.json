@@ -2,107 +2,7 @@
     "name": "Roads",
     "layers": [
         {
-            "name": "Highway Route",
-            "id": "L8285",
-            "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2268/wfs/?service=WFS&typeName=L8285&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
-            "style": {
-                "color": "#455cd7",
-                "opacity": 1
-            },
-            "tags": [
-                "city",
-                "road"
-            ],
-            "relevant_properties": [
-                {
-                    "property_name": "COD_STRADA_BREVE",
-                    "display_name": "Highway",
-                    "type": "number"
-                },
-                {
-                    "property_name": "NOME_STRADA",
-                    "display_name": "Name",
-                    "type": "number"
-                },
-                {
-                    "property_name": "DIREZ_AUTOS",
-                    "display_name": "Direction",
-                    "type": "number"
-                },
-                {
-                    "property_name": "GESTORE",
-                    "display_name": "Operator",
-                    "type": "number"
-                }
-            ]
-        },
-        {
-            "name": "Highway Toll Booths",
-            "id": "L8287",
-            "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2268/wfs/?service=WFS&typeName=L8287&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
-            "style": {
-                "color": "#557d9a",
-                "opacity": 1
-            },
-            "tags": [
-                "city",
-                "road"
-            ],
-            "relevant_properties": [
-                {
-                    "property_name": "NAME",
-                    "display_name": "Station Name",
-                    "type": "number"
-                },
-                {
-                    "property_name": "PROGR_KM",
-                    "display_name": "Progression (Km)",
-                    "type": "number"
-                }
-            ]
-        },
-        {
-            "name": "City State Roads",
-            "id": "L8324",
-            "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2269/wfs/?service=WFS&typeName=L8324&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
-            "style": {
-                "color": "#c47d0a",
-                "opacity": 1
-            },
-            "tags": [
-                "city",
-                "road"
-            ],
-            "relevant_properties": [
-                {
-                    "property_name": "NOME_STRADA",
-                    "display_name": "Road Name",
-                    "type": "number"
-                }
-            ]
-        },
-        {
-            "name": "Extracity State Roads",
-            "id": "L8289",
-            "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2269/wfs/?service=WFS&typeName=L8289&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
-            "style": {
-                "color": "#467168",
-                "opacity": 1
-            },
-            "tags": [
-                "city",
-                "road"
-            ],
-            "relevant_properties": [
-                {
-                    "property_name": "NOME_STRADA",
-                    "display_name": "Road Name",
-                    "type": "number"
-                }
-            ]
-        },
-        {
-            "name": "Streets/Roads",
+            "name": "Roads/streets",
             "id": "MEDIATORE:MV_TRACCIATO_STRADALE",
             "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=MEDIATORE:MV_TRACCIATO_STRADALE&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
             "style": {
@@ -110,34 +10,13 @@
                 "opacity": 1
             },
             "tags": [
-                "city",
-                "road"
+                "urban data"
             ],
             "relevant_properties": [
                 {
                     "property_name": "NOME_VIA",
-                    "display_name": "Street Name",
-                    "type": "number"
-                }
-            ]
-        },
-        {
-            "name": "Toponymy",
-            "id": "L8179",
-            "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2238/wfs/?service=WFS&typeName=L8179&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
-            "style": {
-                "color": "#ff4114",
-                "opacity": 1
-            },
-            "tags": [
-                "city",
-                "road"
-            ],
-            "relevant_properties": [
-                {
-                    "property_name": "TOPONIMO",
-                    "display_name": "Name",
-                    "type": "number"
+                    "display_name": "Road/street name",
+                    "type": "string"
                 }
             ]
         }

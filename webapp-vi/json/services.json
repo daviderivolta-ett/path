@@ -10,10 +10,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "services",
-        "bathroom",
-        "public"
+        "services"
       ],
       "relevant_properties": [
         {
@@ -52,9 +49,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "services",
-        "hospitals"
+        "health"
       ],
       "relevant_properties": [
         {
@@ -88,9 +83,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
         "services",
-        "pharmacies"
+        "health"
       ],
       "relevant_properties": [
         {
@@ -119,9 +113,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "services",
-        "cinema"
+        "culture",
+        "entertainment"
       ],
       "relevant_properties": [
         {
@@ -145,9 +138,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "services",
-        "theaters"
+        "culture",
+        "entertainment"
       ],
       "relevant_properties": [
         {
@@ -201,9 +193,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "services",
-        "hospitals"
+        "education"
       ],
       "relevant_properties": [
         {
@@ -287,9 +277,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "services",
-        "hospitals"
+        "urban data",
+        "services"
       ],
       "relevant_properties": [
         {
@@ -328,11 +317,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "services",
-        "water",
-        "potable",
-        "fountains"
+        "urban data",
+        "services"
       ],
       "relevant_properties": []
     },
@@ -345,9 +331,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "services",
-        "security"
+        "urban data"
       ],
       "relevant_properties": []
     },
@@ -360,9 +344,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "services",
-        "security"
+        "services"
       ],
       "relevant_properties": [
         {
@@ -381,9 +363,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "services",
-        "relax"
+        "urban data",
+        "services"
       ],
       "relevant_properties": [
         {

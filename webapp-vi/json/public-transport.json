@@ -10,10 +10,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "public transport",
-        "amt",
-        "bus"
+        "mobility"
       ],
       "relevant_properties": [
         {
@@ -47,10 +44,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "public transport",
-        "amt",
-        "subway"
+        "mobility"
       ],
       "relevant_properties": [
         {
@@ -74,10 +68,7 @@
         "opacity": 1
       },
       "tags": [
-        "city",
-        "public transport",
-        "amt",
-        "subway"
+        "mobility"
       ],
       "relevant_properties": []
     },
@@ -90,8 +81,7 @@
         "opacity": 1
       },
       "tags": [
-        "city",
-        "funicular"
+        "mobility"
       ],
       "relevant_properties": [
         {

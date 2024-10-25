@@ -10,10 +10,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "nature",
-        "parks",
-        "gardens",
-        "trees"
+        "culture",
+        "environment"
       ],
       "relevant_properties": [
         {
@@ -97,9 +95,9 @@
         "opacity": 0.5
       },
       "tags": [
-        "nature",
-        "parks",
-        "gardens"
+        "environment",
+        "entertainment",
+        "sport"
       ],
       "relevant_properties": [
         {
@@ -140,38 +138,6 @@
         {
           "property_name": "NOMEPROVINCIA",
           "display_name": "Province",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Regional Forests",
-      "id": "L7937",
-      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2188/wfs/?service=WFS&typeName=L7937&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
-      "style": {
-        "color": "#eecc5f",
-        "opacity": 0.5
-      },
-      "tags": [
-        "nature",
-        "parks",
-        "gardens",
-        "forests"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "NOME_FORESTA",
-          "display_name": "Forest Name",
-          "type": "string"
-        },
-        {
-          "property_name": "RIF_GESTORE",
-          "display_name": "Manager",
-          "type": "string"
-        },
-        {
-          "property_name": "CONTATTO_GESTORE",
-          "display_name": "Manager Contact",
           "type": "string"
         }
       ]

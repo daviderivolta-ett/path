@@ -10,10 +10,7 @@
                 "opacity": 0.5
             },
             "tags": [
-                "city",
-                "disabled",
-                "barriers",
-                "architectural"
+                "urban data"
             ],
             "relevant_properties": [
                 {
@@ -67,10 +64,7 @@
                 "opacity": 1
             },
             "tags": [
-                "city",
-                "disabled",
-                "barriers",
-                "architectural"
+                "urban data"
             ],
             "relevant_properties": [
                 {

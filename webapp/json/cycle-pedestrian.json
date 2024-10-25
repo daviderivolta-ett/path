@@ -10,13 +10,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "bicycle",
-        "cycle path",
-        "track",
-        "parking",
-        "sharing",
-        "bike sharing"
+        "mobility",
+        "services"
       ],
       "relevant_properties": [
         {
@@ -35,14 +30,7 @@
         "opacity": 1
       },
       "tags": [
-        "city",
-        "bicycle",
-        "cycle path",
-        "route",
-        "track",
-        "trail",
-        "sharing",
-        "bike sharing"
+        "mobility"
       ],
       "relevant_properties": [
         {
@@ -71,9 +59,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "city",
-        "areas",
-        "pedestrian"
+        "mobility",
+        "urban data"
       ],
       "relevant_properties": [
         {
